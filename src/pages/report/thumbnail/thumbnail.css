@@ -1,0 +1,54 @@
+.thumbItem {
+  position: relative;
+  padding: 8px;
+  margin: 0px 8px 8px 0px;
+  display: inline-block;
+  vertical-align: top;
+  width: 104px;
+  height: 104px;
+  border-radius: 4px;
+  border: 1px solid #d9d9d9;
+}
+
+.thumbInfo {
+  position: relative;
+  height: 100%;
+  overflow: hidden;
+  transition: background-color 0.3s;
+}
+
+
+.thumbModal {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  background-color: rgba(0, 0, 0, 0.5);
+  transition: all 0.3s;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.deleteIcon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+  opacity: 1;
+  transition: all 0.3s;
+  color: #fff;
+  font-size: 20px;
+}
+
+.thumbModal:hover {
+  opacity: 1;
+}
+
+.thumImg {
+  display: block;
+  width: 100%;
+  position: static;
+}

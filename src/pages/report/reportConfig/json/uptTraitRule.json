@@ -1,0 +1,13 @@
+{
+  "code": 0,
+  "msg": "string",
+  "result": [
+    {
+      "reportUpgradeId": 0,
+      "ruleAgeMax": "string",
+      "ruleAgeMin": "string",
+      "ruleConclusion": "string",
+      "ruleGender": "string"
+    }
+  ]
+}

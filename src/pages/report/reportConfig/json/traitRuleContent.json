@@ -1,0 +1,16 @@
+{
+  "code": 0,
+  "msg": "string",
+  "result": {
+    "cfgContendId": 0,
+    "categories": [{
+        "itemId":"nav_123","itemName":"现状测评"
+      },{
+        "itemId":"nav_456","itemName":"更多建议"
+      }, {
+        "itemId":"nav_789","itemName":"科普知识"
+      }],
+    "content": "<p>WER SERWERGSDF WERWER</p>",
+    "reportUpgradeId": 1
+  }
+}

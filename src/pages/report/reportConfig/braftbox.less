@@ -1,0 +1,75 @@
+@minwidth: 265px;
+
+.BraftEditorbox{
+  line-height: 1.5;
+  min-width: 1200px;
+
+  ul{
+    padding-left: 0;
+    list-style: none;
+  }
+  p{margin: 0;}
+  
+  .subInfor{
+    padding: 20px 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    background: #f8f8f8;
+    min-width: @minwidth;
+  }
+
+  .subTagbox{
+    font-size: 14px;
+    min-width: @minwidth;
+
+    >li{
+      border: 1px solid #ccc;
+      margin-top: -1px;
+      padding: 10px 5px;
+      cursor: pointer;
+      
+
+      >div:nth-child(1){
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+
+      .subTools{
+        font-size: 0;
+        display: none;
+        a{
+          display: inline-block;
+          padding: 0 1px;
+          img{width: 16px;}
+        }
+        a[disabled]{
+          img{opacity: .2;}
+        }
+      }
+      
+      &.on,
+      &:hover{
+        background: #f9f9f9;
+        .subTools{display: block;}
+      }
+      &.on{background: #f0f0f0;}
+    }
+  }
+
+  .braftBtnBox{
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    button{
+      margin: 10px 1em;
+    }
+  }
+
+  .gotolist{
+    padding: 0 0 15px;
+  }
+}
+

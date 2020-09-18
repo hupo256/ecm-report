@@ -1,0 +1,37 @@
+{
+  "code": 0,
+  "msg": "string",
+  "result": {
+    "definitionDto": {
+      "applicableU": "KID",
+      "theme": "SKIN",
+      "traitCode": "ZM00000001-1",
+      "traitId": 1,
+      "traitName": "该的需求"
+    },
+    "traitId": 0,
+    "upgradeRuleDtos": [
+      {
+        "reportUpgradeId": 1,
+        "ruleAgeMax": "3月",
+        "ruleAgeMin": "0月",
+        "ruleConclusion": "v1-v2",
+        "ruleGender": "11"
+      },
+      {
+        "reportUpgradeId": 2,
+        "ruleAgeMax": "6月",
+        "ruleAgeMin": "4月",
+        "ruleConclusion": "v3-v4",
+        "ruleGender": "11"
+      },
+      {
+        "reportUpgradeId": 3,
+        "ruleAgeMax": "6月",
+        "ruleAgeMin": "4月",
+        "ruleConclusion": "v3-v4",
+        "ruleGender": "11"
+      }
+    ]
+  }
+}
